@@ -5,6 +5,12 @@ import App from './App';
 import { createBrowserRouter } from "react-router-dom";
 
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/">
+    </Route>
+  )
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
